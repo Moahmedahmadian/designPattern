@@ -1,5 +1,12 @@
+
+/**
+ *  database driver
+ *  project configuration
+ *
+ * @class Setting
+ */
 class Setting {
-    instance;
+    static instance;
     count = 0;
     static getSetting() {
         if (!this.instance)
